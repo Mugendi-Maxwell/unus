@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "id": "12345",
+      "username": "john_doe",
+      "message": "Welcome back, John! You have 3 new notifications."
+    },
+    {
+      "id": "c380",
+      "email": "mxmu025@gmail.com",
+      "password": "M@xwe11mug3"
+    },
+    {
+      "id": "6e93",
+      "email": "mxmu025@gmail.com",
+      "password": "M@xwe11mug3"
+    }
+  ]
+}

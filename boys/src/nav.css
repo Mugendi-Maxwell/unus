@@ -1,0 +1,56 @@
+/* General Navbar Styles */
+.navbar {
+  background-color: #0a1430; /* Dark blue background */
+  border-bottom: 2px solid #14212e; /* Dark blue border */
+  padding: 1rem 2rem; /* Add padding */
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item a {
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #e2e8f0; /* Light gray color */
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #4a5568; /* Hover effect */
+  color: white;
+}
+
+.nav-item a.active {
+  background-color: #1a202c; /* Active page color */
+  color: white;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+  }
+}
